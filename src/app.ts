@@ -1,7 +1,4 @@
 import { Server } from './presentation/server'
-import { CronJob } from 'cron';
-import 'dotenv/config'
-import { envs } from './config/plugins/envs.plugin';
 
 (() => {
     main();
@@ -9,5 +6,4 @@ import { envs } from './config/plugins/envs.plugin';
 
 function main() {
     Server.start();
-    // console.log(envs)
 }
