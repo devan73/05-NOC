@@ -28,6 +28,7 @@
     "dotenv": "^16.5.0",
     "env-var": "^7.5.0",
     "json-server": "^1.0.0-beta.3",
+    "mongoose": "^8.14.2",
     "nodemailer": "^7.0.3"
   }
 }
